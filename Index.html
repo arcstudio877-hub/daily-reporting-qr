@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Reporting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Daily Reporting</h2>
+
+  <input type="text" id="name" placeholder="Enter Name" required>
+  <input type="text" id="empid" placeholder="Enter ID" required>
+
+  <video id="video" autoplay playsinline></video>
+  <button onclick="capture()">📸 Capture Selfie</button>
+
+  <canvas id="canvas"></canvas>
+
+  <button class="submit" onclick="submitData()">✅ Submit Report</button>
+
+  <p id="status"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

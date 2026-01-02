@@ -30,7 +30,7 @@ function submitData() {
       device: navigator.userAgent
     };
 
-    fetch("PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL", {
+    fetch("https://script.google.com/macros/s/AKfycbz--mwg4-K-H8M6hF9EnUd-I9zGU7MUbUdQHiOG4pphiSEX8Bu2lCcKQ9xMVw-FymmnFw/exec", {
       method: "POST",
       body: JSON.stringify(payload)
     })
